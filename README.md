@@ -1,16 +1,42 @@
-# React + Vite
+# AWS Student Community Day — Student-First Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A student-focused redesign of the AWS Student Community Day experience.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project rethinks the event journey from a student's perspective:
 
-## React Compiler
+**What is this? → Is it relevant to me? → What can I attend? → How do I register? → What happens next?**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The interface focuses on clear event discovery, session exploration, registration, venue information, and FAQs without adding unnecessary complexity.
 
-## Expanding the Oxlint configuration
+## Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Student-first event homepage
+- Clear event date, venue and timing information
+- Session discovery by topic
+- Session filtering by experience level
+- Interactive session details
+- Registration flow with confirmation state
+- Venue section with IGDTUW map
+- Interactive FAQ flip cards
+- Responsive design for desktop and mobile
+- Empty and interaction states
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Lucide React
+
+## Project Structure
+
+```text
+src/
+├── App.jsx
+├── App.css
+├── index.css
+├── data.js
+└── main.jsx
